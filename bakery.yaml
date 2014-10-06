@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Magra-Regular.ttf.ttx, Magra-Bold.ttf.ttx, src/Magra-Regular.otf.ttx,
+  src/Magra-Bold.otf.ttx, src/Magra-Regular-TTF.sfd, src/Magra-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
